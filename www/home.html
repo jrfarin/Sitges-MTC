@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sitges Master Classe's | Home</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse bg-custom navbar-toggleable-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleCenteredNav" aria-controls="navbarsExampleCenteredNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExampleCenteredNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <img src="./img/icons/shrimps.svg" alt="">
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html">Recetas</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a id="octubre" class="dropdown-item" class="" href="./talleres/01.Octubre.html">Octubre</a>
+                            <a id="noviembre" class="dropdown-item" href="./talleres/02.Noviembre.html">Noviembre</a>
+                            <a id="diciembre" class="dropdown-item" href="./talleres/03.Diciembre.html">Diciembre</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./recetas/Bases/recetas_base.html">Recetas Base</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">Comprar Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid animated fadeIn">
+        <div class="row">
+            <a class="familyItem" href="./recetas/Starters/index.html">
+                <section class="starters flexbox-col">
+                    <h2>entrantes</h2>
+                    <p>2 Recetas</p>
+                </section>
+            </a>
+            <a class="familyItem" href="./recetas/Fish/index.html">
+                <section class="fish flexbox-col"">
+                    <h2>pescados</h2>
+                    <p>1 Receta</p>
+                </section>
+            </a>
+            <a class="familyItem" href="./recetas/Meat/index.html">
+                <section class="meat flexbox-col">
+                    <h2>carnes</h2>
+                    <p>3 Recetas</p>
+                </section>
+            </a>
+            <a class="familyItem" href="./recetas/Meat/index.html">
+                <section class="desserts flexbox-col">
+                    <h2>postres</h2>
+                    <p>0 Recetas</p>
+                </section>
+            </a>
+        </div>
+    </main>
+
+    <script src="./js/jquery-3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+
+</body>
+
+</html>
