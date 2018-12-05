@@ -144,8 +144,7 @@ p.data {
 .bg-custom,
 .btn-custom,
 .card-header {
-    /* background-color: #ff1744!important; */
-    background-color: #2733bd !important;
+    background-color: #ff1744!important;
     color: #fff;
     font-family: 'Cinzel', serif
 }
