@@ -468,11 +468,14 @@ tr>td>img {
     margin: auto;
 }
 
+div#ingredientes tr>td>img {
+    margin-left: 40%;
+}
+
 li.info,
 span.info {
     font-weight: bold;
     margin-left: -20px;
-    margin-top: 10px;
     display: inline-block;
     text-transform: uppercase
 }
