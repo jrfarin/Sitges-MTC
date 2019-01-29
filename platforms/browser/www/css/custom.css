@@ -475,7 +475,7 @@ div#ingredientes tr>td>img {
 li.info,
 span.info {
     font-weight: bold;
-    margin-left: -20px;
+    margin-top: 10px;
     display: inline-block;
     text-transform: uppercase
 }
@@ -484,7 +484,6 @@ hr.list-li {
     border-top: 1px solid #ffeab1;
     margin: .39rem 0;
     width: 60%;
-    margin-left: -20px
 }
 
 .hide {
