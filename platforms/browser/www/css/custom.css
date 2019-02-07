@@ -552,6 +552,10 @@ table.table th.w32 {
     width: 32%
 }
 
+table.table .text-right {
+    width: 20%;
+}
+
 .modal ul.custom {
     margin-bottom: 0
 }
