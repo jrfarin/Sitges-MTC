@@ -10,4 +10,4 @@ function init() {
 }
 
 function newLocation(a) { if (map.getZoom() > 13) { map.setZoom(13) } else { map.setZoom(a) } }
-document.querySelector("#map-arrow").addEventListener("click", function() { newLocation(Math.round(Math.random() * 10) + 13) }, false);
+document.querySelector("#map").addEventListener("click", function() { newLocation(Math.round(Math.random() * 10) + 13) }, false);

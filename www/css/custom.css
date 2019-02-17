@@ -104,7 +104,7 @@ p.data {
 .bg-home>a.btn-custom {
     display: block;
     width: 50%;
-    margin: 8% auto;
+    margin: 16% auto;
     font-size: 1.35rem;
     font-family: 'Lato', sans-serif
 }
@@ -246,7 +246,7 @@ p.data {
 .desserts {
     background-size: cover;
     background-position: center;
-    height: 146px;
+    height: 155px;
     margin: 1px 0;
 }
 
@@ -550,6 +550,10 @@ table.table td>a.phone {
 
 table.table th.w32 {
     width: 32%
+}
+
+table.table .text-right {
+    width: 20%;
 }
 
 .modal ul.custom {
